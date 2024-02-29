@@ -1,42 +1,60 @@
+<<<<<<< HEAD
 <!-- # Getting Started with Create React App
+=======
+# Backend e Frontend - Sistema de Pedidos
+>>>>>>> 748dcf1442595b15f5f9fe1033523f332b3ab204
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto consiste em um sistema de pedidos com um backend desenvolvido em Node.js utilizando Express e um frontend em React.
 
-## Available Scripts
+## Backend (Node.js)
 
-In the project directory, you can run:
+O backend do sistema gerencia pedidos, fornecendo endpoints para criar, visualizar, atualizar e excluir pedidos.
 
-### `npm start`
+### Instalação
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Certifique-se de ter o Node.js instalado em sua máquina.
+2. Clone este repositório.
+3. Navegue até o diretório `backend-node`.
+4. Execute o comando `npm install` para instalar as dependências.
+5. Execute o comando `node index.js` para iniciar o servidor.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Endpoints
 
-### `npm test`
+- `GET /order`: Retorna todos os pedidos cadastrados.
+- `GET /order/:id`: Retorna um pedido específico com o ID fornecido.
+- `POST /order`: Cria um novo pedido.
+- `PUT /order/:id`: Atualiza um pedido existente com o ID fornecido.
+- `DELETE /order/:id`: Exclui um pedido existente com o ID fornecido.
+- `PATCH /order/:id`: Atualiza o status de um pedido existente com o ID fornecido.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Tecnologias Utilizadas
 
-### `npm run build`
+- Node.js
+- Express
+- UUID
+- Cors
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Frontend (React)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+O frontend do sistema permite adicionar novos pedidos e visualizar os pedidos existentes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Instalação
 
-### `npm run eject`
+1. Certifique-se de ter o Node.js e o npm instalados em sua máquina.
+2. Clone este repositório.
+3. Navegue até o diretório `frontend`.
+4. Execute o comando `npm install` para instalar as dependências.
+5. Execute o comando `npm start` para iniciar o servidor de desenvolvimento.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Funcionalidades
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Adicionar novos pedidos com nome do cliente e idade.
+- Visualizar todos os pedidos cadastrados.
+- Excluir pedidos existentes.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Tecnologias Utilizadas
 
+<<<<<<< HEAD
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 ## Learn More
@@ -127,3 +145,8 @@ O frontend do sistema permite adicionar novos pedidos e visualizar os pedidos ex
 ### Demontração 
 <img src="./assets/exemplo-home.png" alt="exemplo-home" width="225px">
 <img src="./assets/exemplo-users.png" alt="exemplo-users" width="225px">
+=======
+- React
+- React Router DOM
+- Axios
+>>>>>>> 748dcf1442595b15f5f9fe1033523f332b3ab204
